@@ -192,6 +192,24 @@ button:hover {
     justify-content: flex-end;
   }
 
+  .success.card {
+    height: 100dvh;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .success img {
+    width: 5rem;
+  }
+
+  .success .message {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+  }
+
   .image-container {
     width: 100%;
     height: 300px;
